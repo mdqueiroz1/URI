@@ -46,15 +46,15 @@ int main(){
 	
 	restoint=restoint%25;
 	dez=restoint/10;
-	printf("%d moeda(s) de R$ 0.10\n",dez);
+	printf("%d moeda(s) de R$ 0.10 \n",dez);
 	
 	restoint=restoint%10;
 	cinco=restoint/5;
-	printf("%d moeda(s) de R$ 0.05\n",cinco);
+	printf("%d moeda(s) de R$ 0.05 \n",cinco);
 	
 	restoint=restoint%5;
 	um=restoint/1;
-	printf("%d moeda(s) de R$ 0.01\n",um);
+	printf("%d moeda(s) de R$ 0.01 \n",um);
 	
 	return 0;
 }
